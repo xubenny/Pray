@@ -1,0 +1,241 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 19, 2014, 5:10:21 PM
+    Author     : Binglin
+*/
+
+html, body {
+    height:100%; 
+    margin:0; 
+    padding:0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.largeHeader {
+    font-size: 50px;
+    margin: 30px;
+}
+
+.mediumHeader {
+    margin: 15px;
+}
+
+.largeInput {
+    margin: 8px;
+    padding-left: 8px;
+    height: 40px;
+    width: 250px;
+    font-size: 25px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.largeInput:focus {
+    border-width: 5px;
+    border-color: #0066cc;
+}
+
+.largeButton{
+    height: 60px;
+    width: 260px;
+    margin: 30px auto;
+    background-color: #0066cc;
+    color: white;
+    border-radius: 8px;
+    font-size: 28px;
+}
+
+.mediumButton{
+    height: 30px;
+    width: 130px;
+    margin: 10px auto;
+    background-color: #cc0000;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.largeLink {
+    font-size: 30px;
+}
+
+.mediumLink {
+    font-size: 20px;
+}
+
+.fixedHeader {
+    display:block; 
+    background-color:black; 
+    height:10%;
+    overflow:hidden;
+
+    color: white;
+    width: 100%;
+    text-align: left;
+    padding: 0;
+}
+
+.headerLeftButton {
+    //width: 30px;
+    //height: 30px;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+}
+
+.headerTitle {
+    width: 75%;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 30px;
+    float: left;
+}
+
+.headerRightButton {
+    //width: 30px;
+    //height: 30px;
+    margin: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+    float: right;
+}
+
+.sectionWithFooter {
+    height:80%;
+    background-color:white; 
+    display:block; 
+    overflow:auto;
+    padding: 0 10px;
+}
+
+.sectionOnly {
+    padding: 0 10px;
+}
+
+//button 本身不方便调节位置，需要加上包装
+.groupButtonWrap, .prayItemWrap{
+    margin: 8px auto;
+    width: 250px;
+}
+
+.groupItem {
+    width: 100%;
+    height: 45px;
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    border-bottom: none;
+    border-radius: 3px;
+    border-color: #0066cc;
+}
+
+.prayItem {
+    background-color: white;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    //border-radius: 5px;
+    border-color: #0066cc;
+    color: black;
+    width: 100%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.detailBody {
+    //margin:65px auto 0px auto;
+    //background-color: lightgray;
+    padding: 10px;
+    //font-size: 20px;
+    text-align: left;
+}
+
+.replyList {
+    margin:0 auto;
+    width: 85%;
+    background-color: #f8f8f8;
+    padding: 12px 10px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+
+.replyItem {
+    margin: auto;
+    width: 245px;
+    border: solid lightgrey 1px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 3px;
+    font-size: 15px;
+}
+
+.prayInput {
+    font-size: 20px;
+    width: 250px;
+}
+
+.fixedFooter {
+    display:block; 
+    background-color:black;
+    height:10%;
+    overflow:hidden;
+
+    width: 100%;
+}
+
+.footerTitle {
+    width: 80%;
+    text-align: left;
+    padding-top: 12px;
+    padding-left: 10px;
+    font-size: 15px;
+    //float: left;
+    color: white;
+}
+
+.replyInput {
+    width: 65%;
+    height: 26px;
+    font-size: 15px;
+    border-radius: 5px;
+    padding-left: 6px;
+}
+
+.replyButton {
+    margin: 5px auto;
+    width:60px;
+    height:36px;
+    background-color: #0066cc;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+mark {
+    background-color: transparent;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+#logout {
+    background-color: transparent;
+    border: none;
+    width: 30px;
+    margin: 0;
+    padding: 0;    
+}
+
+.newRemind {
+    color: red;
+    font-size: 15px;
+}
